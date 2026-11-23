@@ -1,0 +1,52 @@
+/* Seletor de elemento: fundo da página como lightgray */
+body {
+    background-color: lightgray;
+    margin: 20px;
+}
+
+/* Seletor de ID: título em azul, centralizado, fonte Arial e negrito */
+#titulo-principal {
+    color: blue;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Seletor de classe: subtítulo com letras maiúsculas */
+.subtitulo {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Seletor de classe: parágrafo justificado, recuo de 25px, line-height 1.5 e letter-spacing 1px */
+.apresentacao {
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+/* Pseudo-elemento: primeira letra do parágrafo em vermelho */
+.apresentacao::first-letter {
+    color: red;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Seletor de classe: marcadores quadrados na lista */
+.lista-minicursos {
+    list-style-type: square;
+}
+
+/* Seletor de elemento e pseudo-classes para os links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: purple;
+}
